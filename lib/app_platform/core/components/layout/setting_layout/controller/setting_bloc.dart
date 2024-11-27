@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:chat_pos_sdk/core/components/layout/setting_layout/controller/setting_modal_state.dart';
+import 'package:chat_pos_sdk/app_platform/core/components/layout/setting_layout/controller/setting_modal_state.dart';
 import 'package:chat_pos_sdk/generated/l10n.dart';
 import 'package:injectable/injectable.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:chat_pos_sdk/core/components/network/app_exception.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/usecase/setting/setting_usecase.dart';
+import 'package:chat_pos_sdk/app_platform/core/components/network/app_exception.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/usecase/setting/setting_usecase.dart';
 
 part 'setting_event.dart';
 part 'setting_state.dart';

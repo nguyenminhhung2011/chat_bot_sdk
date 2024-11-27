@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:chat_pos_sdk/app_coordinator.dart';
-import 'package:chat_pos_sdk/core/components/constant/constant.dart';
-import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart';
+import 'package:chat_pos_sdk/app_platform/app_coordinator.dart';
+import 'package:chat_pos_sdk/app_platform/core/components/constant/constant.dart';
+import 'package:chat_pos_sdk/app_platform/core/components/extensions/context_extensions.dart';
 import 'package:chat_pos_sdk/generated/l10n.dart';
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/local/preferences.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/local/preferences.dart';
 
 class PassCodeScreen extends StatefulWidget {
   final String? routes;

@@ -1,14 +1,14 @@
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/bloc/chat_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/bloc/chat_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:chat_pos_sdk/core/components/extensions/string_extensions.dart';
-import 'package:chat_pos_sdk/routes/main_routes.dart';
+import 'package:chat_pos_sdk/app_platform/core/components/extensions/string_extensions.dart';
+import 'package:chat_pos_sdk/app_platform/routes/main_routes.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'core/components/layout/setting_layout/controller/setting_bloc.dart';
 import 'core/dependency_injection/di.dart';
-import 'generated/l10n.dart';
+import '../generated/l10n.dart';
 
 class Application extends StatefulWidget {
   final AdaptiveThemeMode? savedThemeMode;
