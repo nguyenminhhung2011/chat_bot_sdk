@@ -1,11 +1,11 @@
-import 'package:chat_pos_sdk/app_coordinator.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/conversation/conversation.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/views/widgets/conversation_item_widget.dart';
+import 'package:chat_pos_sdk/app_platform/app_coordinator.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/conversation/conversation.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/views/widgets/conversation_item_widget.dart';
 import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart';
 import 'package:chat_pos_sdk/core/components/widgets/button_custom.dart';
 import 'package:chat_pos_sdk/core/components/widgets/loading_page.dart';
-import 'package:chat_pos_sdk/routes/routes.dart';
+import 'package:chat_pos_sdk/app_platform/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

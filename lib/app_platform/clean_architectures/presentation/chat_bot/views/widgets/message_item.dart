@@ -1,5 +1,5 @@
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/widgets/dot_waiting.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/widgets/speech_icon.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/widgets/dot_waiting.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/widgets/speech_icon.dart';
 import 'package:chat_pos_sdk/core/components/extensions/string_extensions.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

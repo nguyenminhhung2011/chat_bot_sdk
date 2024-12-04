@@ -2,8 +2,8 @@ import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart'
 import 'package:flutter/material.dart';
 import 'package:chat_pos_sdk/core/components/constant/constant.dart';
 
-import 'core/components/layout/setting_layout/views/language_choose.dart';
-import 'core/components/widgets/advanced_mobile_gpt/bottom_api_warning.dart';
+import '../core/components/layout/setting_layout/views/language_choose.dart';
+import '../core/components/widgets/advanced_mobile_gpt/bottom_api_warning.dart';
 
 extension AppCoordinator<T> on BuildContext {
   void pop() => Navigator.of(this).pop();

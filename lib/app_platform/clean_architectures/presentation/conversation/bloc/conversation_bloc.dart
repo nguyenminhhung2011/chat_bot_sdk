@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/local/preferences.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/conversation/conversation.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/usecase/conversation_usecase.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/bloc/conversation_modal_state.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/local/preferences.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/conversation/conversation.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/usecase/conversation_usecase.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/bloc/conversation_modal_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';

@@ -1,7 +1,7 @@
 import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/widgets/listening_icon.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/widgets/listening_icon.dart';
 
 class InputWidget extends StatefulWidget {
   final TextEditingController textEditingController;

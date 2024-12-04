@@ -1,4 +1,4 @@
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/remote/stream_rest_api.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/remote/stream_rest_api.dart';
 import 'package:chat_pos_sdk/core/components/configurations/configurations.dart';
 import 'package:injectable/injectable.dart';
 

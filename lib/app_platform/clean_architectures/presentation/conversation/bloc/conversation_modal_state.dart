@@ -1,4 +1,4 @@
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/conversation/conversation.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/conversation/conversation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'conversation_modal_state.freezed.dart';

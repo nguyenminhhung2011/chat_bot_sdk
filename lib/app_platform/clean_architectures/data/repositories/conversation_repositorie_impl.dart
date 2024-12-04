@@ -1,6 +1,6 @@
-import 'package:chat_pos_sdk/clean_architectures/data/model/conversation/conversation_model.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/conversation/conversation.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/repositories/conversation_repositories.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/model/conversation/conversation_model.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/conversation/conversation.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/repositories/conversation_repositories.dart';
 import 'package:chat_pos_sdk/core/components/network/app_exception.dart';
 import 'package:either_dart/either.dart';
 import 'package:hive_flutter/hive_flutter.dart';

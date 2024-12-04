@@ -1,6 +1,6 @@
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/views/medias/conversation_mobile.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/views/medias/conversation_web.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/views/medias/conversation_mobile.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/views/medias/conversation_web.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

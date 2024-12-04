@@ -1,18 +1,18 @@
 import 'dart:developer';
 
 // import 'package:chat_pos_sdk/clean_architectures/data/data_source/remote/thread_api.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/conversation/conversation.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/bloc/chat_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/bloc/chat_modal_state.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/medias/chat_bot_mobile.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/medias/chat_bot_web.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/conversation/conversation.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/bloc/chat_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/bloc/chat_modal_state.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/medias/chat_bot_mobile.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/medias/chat_bot_web.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
 import 'package:chat_pos_sdk/core/components/constant/constant.dart';
 import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart';
 import 'package:chat_pos_sdk/core/components/extensions/string_extensions.dart';
 import 'package:flutter/material.dart';
-import 'package:chat_pos_sdk/app_coordinator.dart';
+import 'package:chat_pos_sdk/app_platform/app_coordinator.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class MessageReturn {

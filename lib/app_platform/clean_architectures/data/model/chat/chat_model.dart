@@ -1,6 +1,6 @@
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_status.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_type.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_status.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_type.dart';
 import 'package:chat_pos_sdk/core/components/constant/hive_constant.dart';
 import 'package:hive/hive.dart';
 

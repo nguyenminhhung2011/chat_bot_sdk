@@ -1,6 +1,6 @@
 import 'package:chat_pos_sdk/core/components/constant/image_const.dart';
 import 'package:chat_pos_sdk/core/components/extensions/string_extensions.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/feature_category.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/feature_category.dart';
 
 class Constant {
   static DateTime timeNow = DateTime.now();

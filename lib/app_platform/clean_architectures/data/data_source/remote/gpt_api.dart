@@ -1,4 +1,4 @@
-import 'package:chat_pos_sdk/clean_architectures/data/model/chat/thread_messages_response.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/model/chat/thread_messages_response.dart';
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 import 'package:retrofit/retrofit.dart';

@@ -1,11 +1,11 @@
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/views/conversation_view.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/input_api/cubit/input_api_cubit.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/input_api/views/input_api_view.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/views/conversation_view.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/input_api/cubit/input_api_cubit.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/input_api/views/input_api_view.dart';
 import 'package:chat_pos_sdk/core/dependency_injection/di.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/chat_bot_view.dart';
-import 'package:chat_pos_sdk/routes/routes.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/chat_bot_view.dart';
+import 'package:chat_pos_sdk/app_platform/routes/routes.dart';
 
 class MainRoutes {
   static Route<dynamic> getRoute(RouteSettings settings) {

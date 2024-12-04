@@ -1,5 +1,5 @@
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/user/user.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/usecase/base/base_usecase.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/user/user.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/usecase/base/base_usecase.dart';
 import 'package:injectable/injectable.dart';
 
 @injectable

@@ -1,5 +1,5 @@
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_status.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_type.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_status.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_type.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'chat.freezed.dart';

@@ -1,9 +1,9 @@
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/remote/base_api.dart';
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/remote/utils/data_state.dart';
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/remote/gpt_api.dart';
-import 'package:chat_pos_sdk/clean_architectures/data/model/chat/chat_model.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/repositories/chat_repositories.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/remote/base_api.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/remote/utils/data_state.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/remote/gpt_api.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/model/chat/chat_model.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/repositories/chat_repositories.dart';
 import 'package:chat_pos_sdk/core/components/constant/gpt_constant.dart';
 import 'package:chat_pos_sdk/core/components/network/app_exception.dart';
 import 'package:either_dart/either.dart';

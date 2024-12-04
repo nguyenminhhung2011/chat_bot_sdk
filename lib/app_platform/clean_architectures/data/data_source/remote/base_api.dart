@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/remote/utils/data_state.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/remote/utils/data_state.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/dio.dart';
 

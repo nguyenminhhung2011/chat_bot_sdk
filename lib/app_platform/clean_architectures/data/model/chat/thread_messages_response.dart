@@ -1,4 +1,4 @@
-import 'package:chat_pos_sdk/clean_architectures/data/model/chat/thread_chat_model.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/model/chat/thread_chat_model.dart';
 
 class ThreadMessagesResponse {
   final String? object;

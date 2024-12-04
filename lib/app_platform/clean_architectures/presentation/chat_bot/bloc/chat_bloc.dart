@@ -1,12 +1,11 @@
 import 'dart:async';
 import 'dart:developer';
 
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_status.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_type.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/usecase/chat_usecase.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/bloc/chat_modal_state.dart';
-import 'package:chat_pos_sdk/core/components/constant/gpt_constant.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_status.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_type.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/usecase/chat_usecase.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/bloc/chat_modal_state.dart';
 import 'package:chat_pos_sdk/core/services/speech_to_text_service.dart';
 import 'package:chat_pos_sdk/core/services/text_to_speech_service.dart';
 import 'package:collection/collection.dart';

@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 import 'package:flutter/foundation.dart';
-import 'package:chat_pos_sdk/clean_architectures/data/data_source/local/preferences.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/data_source/local/preferences.dart';
 
 class AppCoreFactory {
   static Dio createDio(String baseUrl) {

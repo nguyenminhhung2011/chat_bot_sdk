@@ -1,6 +1,6 @@
-import 'package:chat_pos_sdk/app_coordinator.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/conversation/conversation.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/app_coordinator.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/conversation/conversation.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
 import 'package:chat_pos_sdk/core/components/constant/handle_time.dart';
 import 'package:chat_pos_sdk/core/components/constant/image_const.dart';
 import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart';

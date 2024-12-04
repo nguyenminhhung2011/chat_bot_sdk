@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/user/user.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/user/user.dart';
 import 'package:chat_pos_sdk/core/components/layout/setting_layout/controller/setting_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'setting_modal_state.freezed.dart';

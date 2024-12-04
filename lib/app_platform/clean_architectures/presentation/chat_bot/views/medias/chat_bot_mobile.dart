@@ -1,23 +1,23 @@
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/chat_bot_view.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/chat_bot_view.dart';
 import 'package:flutter/material.dart';
 
 // import 'package:chat_pos_sdk/clean_architectures/data/data_source/remote/thread_api.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_status.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/chat/chat_type.dart';
-import 'package:chat_pos_sdk/clean_architectures/domain/entities/conversation/conversation.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/bloc/chat_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/bloc/chat_modal_state.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/conversation/views/conversation_view.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_status.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/chat/chat_type.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/domain/entities/conversation/conversation.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/bloc/chat_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/bloc/chat_modal_state.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/bloc/conversation_bloc.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/conversation/views/conversation_view.dart';
 import 'package:chat_pos_sdk/core/components/extensions/string_extensions.dart';
 import 'package:chat_pos_sdk/core/components/widgets/loading_page.dart';
-import 'package:chat_pos_sdk/app_coordinator.dart';
+import 'package:chat_pos_sdk/app_platform/app_coordinator.dart';
 import 'package:chat_pos_sdk/core/components/constant/image_const.dart';
 import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/widgets/input_widget.dart';
-import 'package:chat_pos_sdk/clean_architectures/presentation/chat_bot/views/widgets/message_item.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/widgets/input_widget.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/presentation/chat_bot/views/widgets/message_item.dart';
 
 class ChatBotMobile extends StatefulWidget {
   final TextEditingController textController;

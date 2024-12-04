@@ -1,5 +1,5 @@
-import 'package:chat_pos_sdk/clean_architectures/data/model/chat/chat_model.dart';
-import 'package:chat_pos_sdk/clean_architectures/data/model/conversation/conversation_model.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/model/chat/chat_model.dart';
+import 'package:chat_pos_sdk/app_platform/clean_architectures/data/model/conversation/conversation_model.dart';
 import 'package:chat_pos_sdk/core/components/constant/hive_constant.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:injectable/injectable.dart';

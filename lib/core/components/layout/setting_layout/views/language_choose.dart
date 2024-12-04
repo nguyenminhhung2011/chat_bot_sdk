@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:chat_pos_sdk/app_coordinator.dart';
+import 'package:chat_pos_sdk/app_platform/app_coordinator.dart';
 import 'package:chat_pos_sdk/core/components/extensions/context_extensions.dart';
 
 import '../../../constant/image_const.dart';
